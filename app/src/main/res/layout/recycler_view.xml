@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="english"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/ed_subject"
+            android:hint="scores"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="A"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"/>
+    </TableRow>
+
+    <View android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+</TableLayout>
